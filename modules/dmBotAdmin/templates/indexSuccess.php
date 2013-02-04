@@ -9,7 +9,7 @@ echo _tag('div.fleft style="width:33%"',
       $form->render('.dm_form.list method=get')
     )
   ).
-  _tag('div.help_box', markdown('Notes:
+  _tag('div.help_box', _markdown('Notes:
 
   - Find some page with the form above, then run the bot to browse them
   - The time displayed for each page is not the page creation time, but the time required to send the request and receive the response'
