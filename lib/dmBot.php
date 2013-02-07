@@ -62,12 +62,12 @@ class dmBot extends dmConfigurable
     return $table->render();
   }
 
-  protected function getPageUrl(DmPage $page)
+  public function getPageUrl(DmPage $page)
   {
     return $this->baseUrl.'/'.$page->_getI18n('slug');
   }
 
-  protected function getPageStatusCode(DmPage $page)
+  public function getPageStatusCode(DmPage $page)
   {
     $statusCode = 200;
     
