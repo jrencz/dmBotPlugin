@@ -6,3 +6,4 @@ Tools:
       front:        false
       admin:        true
       name:         Internal Bot
+      credentials:  bot
