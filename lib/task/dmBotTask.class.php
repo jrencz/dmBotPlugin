@@ -34,6 +34,8 @@ class dmBotTask extends dmContextTask
     
     $this->withDatabase();
     
+    $botoptions = array();
+    
     if (!is_null($options['limit']))         $botoptions['limit']         = $options['limit'];
     if (!is_null($options['only-active']))   $botoptions['only_active']   = $options['only-active'];
     if (!is_null($options['slug-pattern']))  $botoptions['slug_pattern']  = $options['slug-pattern'];
